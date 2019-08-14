@@ -1,6 +1,6 @@
 class CreateSupportAttendanceTickets < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihab2.attendance_tickets' do |t|
+    create_table 'sihabx.attendance_tickets' do |t|
       t.integer :category_id 
       t.integer :cadastre_id
       t.integer :cadastre_mirror_id

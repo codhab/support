@@ -6,8 +6,12 @@ class CreateSupportAttendanceTicketMessages < ActiveRecord::Migration[5.2]
       t.integer :attendant_id
       t.text    :message 
       t.boolean :cadastre, default: false
+      t.boolean :cadastre, default: false
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at
     end
   end
 end
