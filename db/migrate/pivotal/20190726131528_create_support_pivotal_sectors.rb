@@ -1,6 +1,6 @@
 class CreateSupportPivotalSectors < ActiveRecord::Migration[5.2]
   def change
-    create_table 'external.pivotal_sectors' do |t|
+    create_table 'intranetx.pivotal_sectors' do |t|
       t.string  :name
       t.string  :acorn
       t.string  :prefex

@@ -1,6 +1,6 @@
 class CreateSupportPivotalJobs < ActiveRecord::Migration[5.2]
   def change
-    create_table 'external.pivotal_jobs' do |t|
+    create_table 'intranetx.pivotal_jobs' do |t|
       t.string  :name
       t.boolean :status, default: false
       
