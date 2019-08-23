@@ -1,6 +1,6 @@
 class CreateSupportPivotalUserViewLogs < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.pivotal_user_view_logs' do |t|
+    create_table 'intranetx.pivotal_user_view_logs' do |t|
       t.integer :user_id
       t.string  :http_method
       t.string  :controller_class

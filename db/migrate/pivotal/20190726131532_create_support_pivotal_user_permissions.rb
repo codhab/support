@@ -1,6 +1,6 @@
 class CreateSupportPivotalUserPermissions < ActiveRecord::Migration[5.2]
   def change
-    create_table 'extranet.pivotal_user_permissions' do |t|
+    create_table 'intranetx.pivotal_user_permissions' do |t|
 
       t.integer :user_id
       t.integer :policy_permission_id
