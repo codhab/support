@@ -2,8 +2,8 @@ require_dependency 'application_record'
 
 module Support
   module Adress
-   class Unit < ApplicationRecord
-    self.table_name = 'sihabx.unit'
+    class Label < ApplicationRecord
+     self.table_name = 'sihabx.label'
+    end
    end
-  end
 end
