@@ -1,5 +1,5 @@
 module Support
-  class Pivotal
+  module Pivotal
     class User < ApplicationRecord
       self.table_name = 'intranetx.pivotal_users'
 
