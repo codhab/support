@@ -13,12 +13,13 @@ class CreateSupportAddressUnits < ActiveRecord::Migration[5.2]
       t.string  :code
       t.date    :code_date
       t.string  :lat
-      t.string  :long
+      t.string  :lng
       t.boolean :no_exemption, default: false
       t.string  :sefaz_certificate
       t.date    :sefaz_certificate_date
       t.date    :sefaz_certificate_validate_date
       t.integer :enterprise_typology_id
+      t.integer :enterprise_id
       t.string  :notary_office
       t.date    :contract_date
       t.date    :contract_office

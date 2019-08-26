@@ -1,8 +1,13 @@
 class CreateSupportAddressActivityTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table :support_address_activity_types do |t|
+    create_table 'sihabx.address_activity_types' do |t|
+
+      t.string  :name
+      t.boolean :status, default: false
 
       t.timestamps
-    end
+      
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at
   end
 end
