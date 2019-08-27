@@ -6,7 +6,7 @@ class CreateSupportAttendenceCategoryTerms < ActiveRecord::Migration[5.2]
       t.string  :title
       t.text    :content
       t.boolean :require, default: false
-      t.boolean :status, default: false
+      t.boolean :status,  default: false
 
       t.timestamps
 

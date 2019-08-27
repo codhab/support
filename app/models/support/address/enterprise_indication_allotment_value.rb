@@ -1,9 +1,9 @@
 require_dependency 'application_record'
 
 module Support
-  module Adress
-   class EnterpriseIndicationAllotmentValue < ApplicationRecord
-     self.table_name = 'sihabx.enterprise_indication_allotment_values'
-   end 
+  module Address
+    class EnterpriseIndicationAllotmentValue < ApplicationRecord
+      self.table_name = 'sihabx.address_enterprise_indication_allotment_values'
+    end
   end
 end

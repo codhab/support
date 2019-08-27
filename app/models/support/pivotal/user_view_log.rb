@@ -1,4 +1,9 @@
+require_dependency 'application_record'
+
 module Support
-  class PivotalUserViewLog < ApplicationRecord
+  module Pivotal
+    class UserViewLog < ApplicationRecord
+      self.table_name = 'intranetx.pivotal_user_view_logs'
+    end
   end
 end

@@ -1,9 +1,9 @@
 require_dependency 'application_record'
 
 module Support
-  module Adress
-   class ActivityType < ApplicationRecord
-     self.table_name = 'sihabx.activity_types'
-   end
+  module Address
+    class ActivityType < ApplicationRecord
+      self.table_name = 'sihabx.address_activity_types'
+    end
   end
 end

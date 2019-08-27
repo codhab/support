@@ -1,9 +1,9 @@
 require_dependency 'application_record'
 
 module Support
-  module Adress
+  module Address
     class UnitImage < ApplicationRecord
-      self.table_name = 'sihabx.unit_images'
+      self.table_name = 'sihabx.address_unit_images'
     end
   end
 end

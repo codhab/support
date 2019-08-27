@@ -12,7 +12,6 @@ class CreateSupportAttendanceTicketSituations < ActiveRecord::Migration[5.2]
 
       t.boolean  :deleted, default: false
       t.datetime :deleted_ad
-      
     end
   end
 end

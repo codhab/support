@@ -7,7 +7,7 @@ class CreateSupportAttendanceDocumentTypes < ActiveRecord::Migration[5.2]
       t.string   :label
       t.text     :observation
       t.text     :help
-      t.boolean  :status, default: boolean
+      t.boolean  :status, default: false
       t.integer  :sei_tranning_id
       t.integer  :sei_production_id
 

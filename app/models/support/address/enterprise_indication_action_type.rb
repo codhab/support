@@ -1,9 +1,9 @@
 require_dependency 'application_record'
 
 module Support
-  module Adress
+  module Address
     class EnterpriseIndicationActionType < ApplicationRecord
-      self.table_name = 'sihabx.enterprise_indication_action_types'
+      self.table_name = 'sihabx.address_enterprise_indication_action_types'
     end
   end
 end
