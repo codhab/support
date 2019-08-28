@@ -3,7 +3,7 @@ class CreateSupportWikiCategoryTopics < ActiveRecord::Migration[5.2]
     create_table 'intranetx.wiki_category_topics' do |t|
 
       t.string  :name
-      t.boolean :status, default: false
+      t.boolean :status, default: true
       t.integer :policy_permission_code
       t.integer :category_id
       

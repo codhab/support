@@ -4,7 +4,7 @@ class CreateSupportWikiTooltips < ActiveRecord::Migration[5.2]
 
       t.string   :title
       t.text     :content
-      t.boolean  :status
+      t.boolean  :status, default: true
 
       t.timestamps
 

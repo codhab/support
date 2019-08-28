@@ -5,7 +5,7 @@ class CreateSupportWikiCategoryTopicContents < ActiveRecord::Migration[5.2]
       t.integer  :category_topic_id
       t.string   :title
       t.text     :content
-      t.boolean  :status
+      t.boolean  :status, default: true
 
       t.timestamps
 
