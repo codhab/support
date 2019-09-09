@@ -1,4 +1,4 @@
-require_dependency 'aplication_record'
+require_dependency 'application_record'
 
 module Support
   module Attendance
