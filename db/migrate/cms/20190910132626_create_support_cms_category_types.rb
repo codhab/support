@@ -1,10 +1,10 @@
-class CreateSupportCmsNavCategories < ActiveRecord::Migration[5.2]
+class CreateSupportCmsCategoryTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table 'intranetx.cms_nav_categories' do |t|
+    create_table 'intranetx.cms_category_types' do |t|
 
       t.string  :name
-      t.integer :category_type_id
       t.boolean :status, default: true
+      t.integer :policy_permission_id
 
       t.timestamps
 
