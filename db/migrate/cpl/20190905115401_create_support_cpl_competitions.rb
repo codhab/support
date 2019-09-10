@@ -15,6 +15,7 @@ class CreateSupportCplCompetitions < ActiveRecord::Migration[5.2]
       
       t.integer :user_id
       t.boolean :publish, default: false
+      t.date    :publish_date
       t.boolean :simulate, default: false
 
       t.date :resource_start_date
