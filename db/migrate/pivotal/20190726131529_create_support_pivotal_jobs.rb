@@ -3,6 +3,8 @@ class CreateSupportPivotalJobs < ActiveRecord::Migration[5.2]
     create_table 'intranetx.pivotal_jobs' do |t|
       t.string  :name
       t.boolean :status, default: false
+      t.float   :salary
+      t.string  :function_code
       
       t.timestamps
 
