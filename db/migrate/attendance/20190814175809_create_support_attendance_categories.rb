@@ -14,11 +14,11 @@ class CreateSupportAttendanceCategories < ActiveRecord::Migration[5.2]
       t.boolean :filter_program, default: false
       t.text    :filter_program_id, array: true
       t.boolean :filter_sub_program, default: false
-      t.text    :filter_sub_program_id, default: true
+      t.text    :filter_sub_program_id, array: true
       t.boolean :filter_sql, default: false
-      t.text    :filter_sql_content, array: true
+      t.text    :filter_sql_content
       t.boolean :filter_cadastre, default: false
-      t.text    :filter_cadastre_id, default: true
+      t.text    :filter_cadastre_id, array: true
       t.boolean  :due, default: false
 
       t.datetime :started_at
