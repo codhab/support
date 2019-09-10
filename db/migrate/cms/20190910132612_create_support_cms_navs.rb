@@ -11,8 +11,7 @@ class CreateSupportCmsNavs < ActiveRecord::Migration[5.2]
       t.boolean :target_blank, default: true
       t.integer :user_id
       
-      t.timestamps
-
+      t.timestamps 
       t.boolean  :deleted, default: false
       t.datetime :deleted_at
     end
