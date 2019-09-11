@@ -1,6 +1,6 @@
 class CreateSupportAttendanceDocumentTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihabx_attendance_document_types' do |t|
+    create_table 'sihabx.attendance_document_types' do |t|
 
       t.string   :name
       t.integer  :code

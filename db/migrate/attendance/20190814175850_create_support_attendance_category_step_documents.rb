@@ -1,6 +1,6 @@
 class CreateSupportAttendanceCategoryStepDocuments < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihabx_attendance_category_step_documents' do |t|
+    create_table 'sihabx.attendance_category_step_documents' do |t|
 
       t.integer :category_step_id
       t.integer :category_type_id

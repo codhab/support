@@ -1,6 +1,6 @@
-class CreateSupportAttendenceCategoryTerms < ActiveRecord::Migration[5.2]
+class CreateSupportAttendanceCategoryTerms < ActiveRecord::Migration[5.2]
   def change
-    create_table 'sihabx_attendence_category_terms' do |t|
+    create_table 'sihabx.attendance_category_terms' do |t|
 
       t.integer :category_id
       t.string  :title

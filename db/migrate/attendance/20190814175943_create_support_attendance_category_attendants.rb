@@ -1,6 +1,6 @@
 class CreateSupportAttendanceCategoryAttendants < ActiveRecord::Migration[5.2]
   def change
-    create_table :support_attendance_category_attendants do |t|
+    create_table 'sihabx.attendance_category_attendants' do |t|
 
       t.integer :category_id 
       t.integer :attendant_id 
