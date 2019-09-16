@@ -8,16 +8,18 @@ class CreateSupportAddressEnterprises < ActiveRecord::Migration[5.2]
       t.integer :entity_id
       t.boolean :entity, default: false
       t.boolean :status, default: false
-      t.string  :number_document
-      t.string  :number_assessment
+      t.string  :document_number
+      t.string  :process_number
       t.boolean :manifestation_allow, default: false
       t.string  :web_url
       t.string  :lat
       t.string  :lng
       t.integer :city_id
       t.integer :user_id
-      t.boolean :inactive_not_count
-
+      t.boolean :inactive_not_count, default: false
+      t.integer :unit_quantity, default: 0
+      t.boolean :exceed_unit_quantity, default: false
+      
       t.timestamps
 
       t.boolean  :deleted, default: false
