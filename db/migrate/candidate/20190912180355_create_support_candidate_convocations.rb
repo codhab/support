@@ -12,7 +12,7 @@ class CreateSupportCandidateConvocations < ActiveRecord::Migration[5.2]
       t.integer  :program_id
       t.integer  :sub_program_id
       t.integer  :user_id
-      t.strig    :document
+      t.string   :document
       t.date     :document_date
 
       t.timestamps
