@@ -3,7 +3,7 @@ class CreateSupportAttendanceAgendaCategories < ActiveRecord::Migration[5.2]
     create_table 'sihabx.attendance_agenda_categories' do |t|
 
       t.string   :name
-      t.boolean  :status
+      t.boolean  :status, default: false
 
       t.timestamps
 

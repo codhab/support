@@ -17,7 +17,7 @@ class CreateSupportAttendanceAgendas < ActiveRecord::Migration[5.2]
       t.integer  :lunch_attendancy_quantity
       t.integer  :location_id
       t.integer  :creator_id
-      t.boolean   :status
+      t.boolean   :status, default: false
       t.boolean  :restriction
       t.boolean  :restriction_presence
       t.text     :restriction_sql
