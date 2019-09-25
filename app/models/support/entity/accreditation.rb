@@ -4,6 +4,8 @@ module Support
   module Entity
     class Accreditation < ApplicationRecord
       self.table_name = 'sihabx.entity_accreditations'
+
+      audited
     end
   end
 end
