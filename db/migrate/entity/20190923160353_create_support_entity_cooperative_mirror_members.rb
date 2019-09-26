@@ -1,8 +1,30 @@
 class CreateSupportEntityCooperativeMirrorMembers < ActiveRecord::Migration[5.2]
   def change
-    create_table :support_entity_cooperative_mirror_members do |t|
+    create_table 'sihabx.entity_cooperative_mirror_members' do |t|
+
+      t.integer :cooperative_mirror_id
+      t.string  :name
+      t.string  :cpf
+      t.string  :rg
+      t.integer :rg_uf_id
+      t.string  :rg_org
+      t.string  :address
+      t.integer :city_id
+      t.string  :cep
+      t.string  :email
+      t.date    :born
+      t.string  :telephone
+      t.string  :telephone_optional
+      t.string  :cell_phone
+      t.string  :certificate_civil_criminal
+      t.string  :photo
+      t.boolean :status
+      t.integer :job_id
 
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at
     end
   end
 end
