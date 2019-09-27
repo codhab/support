@@ -5,7 +5,7 @@ module Support
     class CooperativeMirror < ApplicationRecord
       self.table_name = 'sihabx.entity_cooperative_mirrors'
 
-      audit
+      audited
     end
   end
 end

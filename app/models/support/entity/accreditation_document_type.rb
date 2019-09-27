@@ -5,7 +5,7 @@ module Support
     class AccreditationDocumentType < ApplicationRecord
       self.table_name = 'sihabx.entity_accreditation_document_types'
 
-      audit
+      audited
     end
   end
 end

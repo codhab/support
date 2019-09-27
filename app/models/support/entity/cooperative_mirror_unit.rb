@@ -4,7 +4,7 @@ module Support
   module Entity
     class CooperativeMirrorUnit < ApplicationRecord
       self.table_name = 'sihabx.entity_accreditation_cooperative_units'
-
+      audited
     end
   end
 end
