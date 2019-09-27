@@ -2,7 +2,7 @@ class CreateSupportEntityCooperativeMirrorMembers < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihabx.entity_cooperative_mirror_members' do |t|
 
-      t.integer :cooperative_id
+      t.integer :cooperative_mirror_id
       t.string  :name
       t.string  :cpf
       t.string  :rg
