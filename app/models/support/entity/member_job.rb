@@ -5,7 +5,7 @@ module Support
     class MemberJob < ApplicationRecord
       self.table_name = 'sihabx.entity_member_jobs'
 
-      audit
+      audited
     end
   end
 end
