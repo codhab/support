@@ -10,6 +10,9 @@ class CreateSupportEntityAccreditationCooperativeUnits < ActiveRecord::Migration
       t.boolean :head_office, boolean: false
       
       t.timestamps
+
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at
     end
   end
 end
