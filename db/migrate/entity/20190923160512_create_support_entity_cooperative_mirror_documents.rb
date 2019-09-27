@@ -4,7 +4,7 @@ class CreateSupportEntityCooperativeMirrorDocuments < ActiveRecord::Migration[5.
       t.integer :cooperative_mirror_id
       t.integer :cooperative_id
       t.integer :accreditation_id
-      t.integer :doument_type_id
+      t.integer :document_type_id
       t.string  :attachment
 
       t.timestamps

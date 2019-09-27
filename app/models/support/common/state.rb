@@ -2,8 +2,8 @@ require_dependency 'support/application_record'
 
 module Support
   module Common
-    class State < ApplicationRecord
-      self.table_name = 'commonx.states'
+    class State < ActiveRecord::Base
+      self.table_name = 'extranet.address_states'
     end
   end
 end
