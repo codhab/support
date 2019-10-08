@@ -1,7 +1,11 @@
 class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2]
   def change
     create_table 'intranetx.pivotal_users' do |t|
+      t.string  :photo
+      t.string  :social_photo
       t.string  :code
+      t.string  :first_name
+      t.string  :last_name
       t.string  :name
       t.string  :cpf
       t.string  :username
