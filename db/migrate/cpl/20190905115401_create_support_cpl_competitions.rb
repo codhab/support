@@ -3,7 +3,7 @@ class CreateSupportCplCompetitions < ActiveRecord::Migration[5.2]
     create_table 'intranetx.cpl_competitions' do |t|
       t.string  :title
       t.text    :content
-      t.integer :situation_id
+      t.integer :situation_id, default: 1
       
       t.date    :participation_start_date
       t.time    :participation_start_time
