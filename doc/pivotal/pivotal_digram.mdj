@@ -445,7 +445,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1099,
-									"top": 785,
+									"top": 795,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -462,7 +462,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1118,
-									"top": 784,
+									"top": 794,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -479,7 +479,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1081,
-									"top": 784,
+									"top": 794,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -496,7 +496,7 @@
 								"$ref": "AAAAAAFpJZenA+LMiec="
 							},
 							"lineStyle": 2,
-							"points": "1144:776;1056:776",
+							"points": "1144:786;1056:786",
 							"nameLabel": {
 								"$ref": "AAAAAAFpJa0cmuPUtlU="
 							},
@@ -2508,7 +2508,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 702,
+									"left": 694,
 									"top": 644,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2525,7 +2525,7 @@
 										"$ref": "AAAAAAFpJb/Leud5s7w="
 									},
 									"font": "Arial;13;0",
-									"left": 703,
+									"left": 695,
 									"top": 617,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2542,7 +2542,7 @@
 										"$ref": "AAAAAAFpJb/Leud5s7w="
 									},
 									"font": "Arial;13;0",
-									"left": 703,
+									"left": 695,
 									"top": 672,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2560,7 +2560,7 @@
 								"$ref": "AAAAAAFpJa1LG+PlE4w="
 							},
 							"lineStyle": 2,
-							"points": "688:598;688:704",
+							"points": "680:598;680:704",
 							"nameLabel": {
 								"$ref": "AAAAAAFpJb/Leud6smY="
 							},
@@ -2570,6 +2570,7 @@
 							"headNameLabel": {
 								"$ref": "AAAAAAFpJb/Leud8ba8="
 							}
+<<<<<<< HEAD
 						},
 						{
 							"_type": "ERDEntityView",
@@ -2818,6 +2819,8 @@
 							"columnCompartment": {
 								"$ref": "AAAAAAFtrMaUoSpEcI0="
 							}
+=======
+>>>>>>> 141bf4ce0dbfa0905ab850f6bc912c478429ffe0
 						}
 					]
 				},
@@ -5511,6 +5514,7 @@
 							"length": 0
 						}
 					]
+<<<<<<< HEAD
 				},
 				{
 					"_type": "ERDEntity",
@@ -5651,6 +5655,8 @@
 							"length": 0
 						}
 					]
+=======
+>>>>>>> 141bf4ce0dbfa0905ab850f6bc912c478429ffe0
 				}
 			]
 		}
