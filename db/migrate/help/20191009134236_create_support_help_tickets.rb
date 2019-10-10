@@ -7,10 +7,14 @@ class CreateSupportHelpTickets < ActiveRecord::Migration[5.2]
       t.integer :situation_id
       t.integer :attendant_id
       t.integer :requester_id
-      t.boolean :schedule
+      t.boolean :company, default: false
+      t.integer :company_id
+      t.integer :location_id
+      t.boolean :schedule, default: false
       t.date    :schedule_date
       t.time    :schedule_time
 
+      
       t.timestamps
       
       t.boolean  :deleted, default: false
