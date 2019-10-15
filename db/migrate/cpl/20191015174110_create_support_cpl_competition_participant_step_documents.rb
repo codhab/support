@@ -1,6 +1,6 @@
 class CreateSupportCplCompetitionParticipantStepDocuments < ActiveRecord::Migration[5.2]
   def change
-    create_table 'intranetx.competition_participant_step_documents' do |t|
+    create_table 'intranetx.cpl_competition_participant_step_documents' do |t|
       t.integer :participant_step_id
       t.integer :step_document_id
       t.string  :attachment
