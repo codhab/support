@@ -4,17 +4,16 @@ class CreateSupportCandidateConvocations < ActiveRecord::Migration[5.2]
 
       t.string   :name
       t.text     :description
-      t.date     :start_date
-      t.date     :end_date
-      t.integer  :quantity
+      t.boolean  :due, default: true
+      t.date     :started_at
+      t.date     :ended_at
+      t.integer  :quantity, default: 0
       t.text     :justify
       t.boolean  :status
       t.integer  :program_id
       t.integer  :sub_program_id
       t.integer  :user_id
-      t.string   :document
-      t.date     :document_date
-
+      
       t.timestamps
 
       t.boolean  :deleted, default: false

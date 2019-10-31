@@ -9,7 +9,11 @@ class CreateSupportCandidateCadastreOldSituations < ActiveRecord::Migration[5.2]
       t.string   :user      
       t.integer  :old_id      
       t.boolean  :procedural, default: false
+
       t.timestamps
+      
+      t.boolean  :deleted, default: false
+      t.datetime :deleted_at      
     end
   end
 end
