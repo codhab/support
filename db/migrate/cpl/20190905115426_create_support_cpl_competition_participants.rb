@@ -24,7 +24,7 @@ class CreateSupportCplCompetitionParticipants < ActiveRecord::Migration[5.2]
       
       t.timestamps
 
-      t.boolean   :deleted, default: false
+      t.boolean  :deleted, default: false
       t.datetime :deleted_at
     end
   end
