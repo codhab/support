@@ -4,6 +4,8 @@ module Support
   module Cpl
     class CompetitionSituation < ApplicationRecord
       self.table_name = 'intranetx.cpl_competition_situations'
+      
+      audited
     end
   end
 end
