@@ -7,12 +7,12 @@ class CreateSupportCandidateConvocations < ActiveRecord::Migration[5.2]
       t.boolean  :due, default: true
       t.date     :started_at
       t.date     :ended_at
-      t.integer  :quantity, default: 0
       t.text     :justify
-      t.boolean  :status
+      t.boolean  :status, default: true
       t.integer  :program_id
       t.integer  :sub_program_id
       t.integer  :user_id
+      t.boolean  :computer, default: false
       
       t.timestamps
 

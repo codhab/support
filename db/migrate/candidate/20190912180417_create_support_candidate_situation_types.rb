@@ -5,9 +5,10 @@ class CreateSupportCandidateSituationTypes < ActiveRecord::Migration[5.2]
       t.string   :name
       t.text     :description
       t.boolean  :status, default: false
-
+      t.text     :program_id, array: true
+      
       t.timestamps
-
+      
       t.boolean  :deleted, default: false
       t.datetime :deleted_at
 

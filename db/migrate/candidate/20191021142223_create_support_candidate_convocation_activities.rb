@@ -3,6 +3,8 @@ class CreateSupportCandidateConvocationActivities < ActiveRecord::Migration[5.2]
     create_table 'sihabx.candidate_convocation_activities' do |t|
       t.integer :convocation_id
       t.text    :description
+      t.integer :user_id
+      t.boolean :computer, default: false
       
       t.timestamps
 

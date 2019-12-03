@@ -1,9 +1,11 @@
 require_dependency 'support/application_record'
 
 module Support
-  class CadastreDependent < ApplicationRecord
-    self.table_name = 'sihabx.candidate_cadastre_dependents'
+  module Candidate
+    class CadastreDependent < ApplicationRecord
+      self.table_name = 'sihabx.candidate_cadastre_dependents'
 
-    audited
+      audited
+    end
   end
 end

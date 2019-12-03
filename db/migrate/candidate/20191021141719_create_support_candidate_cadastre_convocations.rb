@@ -5,6 +5,7 @@ class CreateSupportCandidateCadastreConvocations < ActiveRecord::Migration[5.2]
       t.integer  :convocation_id
       t.integer  :cadastre_id
       t.text     :observation
+      t.datetime :date, null: false
       t.integer  :user_id
       t.boolean  :status, default: true
       t.datetime :inactived_at
