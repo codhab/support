@@ -3,9 +3,10 @@ class CreateSupportCandidateCadastreDocuments < ActiveRecord::Migration[5.2]
     create_table 'sihabx.candidate_cadastre_documents' do |t|
 
       t.integer :cadastre_id
-      t.string  :process_number
+      t.string  :document_number
       t.text    :description
       t.integer :user_id
+      t.boolean :computer, default: false
       t.date    :date
       
       t.timestamps

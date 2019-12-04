@@ -6445,21 +6445,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAFlxRyv8LMF6KU=",
-											"_parent": {
-												"$ref": "AAAAAAFlxRwSvLLHlks="
-											},
-											"model": {
-												"$ref": "AAAAAAFlxRyvvbMCQV0="
-											},
-											"font": "Arial;13;0",
-											"left": 29,
-											"top": 448,
-											"width": 249.99609375,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAFlxRxy/LLphoc=",
 											"_parent": {
 												"$ref": "AAAAAAFlxRwSvLLHlks="
@@ -6469,7 +6454,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 29,
-											"top": 463,
+											"top": 448,
 											"width": 249.99609375,
 											"height": 13
 										},
@@ -6484,7 +6469,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 29,
-											"top": 478,
+											"top": 463,
 											"width": 249.99609375,
 											"height": 13
 										},
@@ -6499,7 +6484,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 29,
-											"top": 493,
+											"top": 478,
 											"width": 249.99609375,
 											"height": 13
 										},
@@ -6514,7 +6499,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 29,
-											"top": 508,
+											"top": 493,
 											"width": 249.99609375,
 											"height": 13
 										}
@@ -6523,7 +6508,7 @@
 									"left": 24,
 									"top": 383,
 									"width": 259.99609375,
-									"height": 143
+									"height": 128
 								}
 							],
 							"font": "Arial;13;0",
@@ -14136,18 +14121,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFlxRwSvLLDbsA="
 							},
-							"name": "description",
+							"name": "observation",
 							"type": "text",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFlxRyvvbMCQV0=",
-							"_parent": {
-								"$ref": "AAAAAAFlxRwSvLLDbsA="
-							},
-							"name": "user_id",
-							"type": "integer",
 							"length": 0
 						},
 						{
