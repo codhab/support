@@ -3,9 +3,11 @@ class CreateSupportAttendanceCategoryAttendants < ActiveRecord::Migration[5.2]
     create_table 'sihabx.attendance_category_attendants' do |t|
 
       t.integer :category_id 
-      t.integer :attendant_id 
+      t.integer :user_id 
       t.integer :creator_id 
       t.text    :observation 
+      t.boolean :computer, default: false
+      t.text    :justify
 
       t.timestamps
 

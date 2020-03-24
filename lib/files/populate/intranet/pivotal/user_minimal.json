@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "xyz",
+      "first_name": "xyz",
+      "last_name": "abc",
+      "code": "xyz",
+      "cpf": "496.005.490-52",
+      "username": "xyz.abc",
+      "born": "1900-01-01",
+      "email": "xyz@abc.com",
+      "administrator": "true",
+      "administrator_observation": "usuário de desenvolvimento"
+    }
+  ]
+}

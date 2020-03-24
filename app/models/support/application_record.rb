@@ -17,5 +17,9 @@ module Support
       self.save(validate: false)
     end
 
+    def destroy_all
+      self.update_all(deleted: true, deleted_at: Time.now)
+    end
+
   end
 end

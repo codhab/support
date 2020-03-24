@@ -2,9 +2,8 @@ class CreateSupportAttendanceDocumentTypes < ActiveRecord::Migration[5.2]
   def change
     create_table 'sihabx.attendance_document_types' do |t|
 
-      t.string   :name
+      t.string   :default_label
       t.integer  :code
-      t.string   :label
       t.text     :observation
       t.text     :help
       t.boolean  :status, default: false

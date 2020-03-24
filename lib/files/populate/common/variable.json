@@ -1,0 +1,5 @@
+{
+  "variables": [
+    { "name": "EXTERNAL_PASSWORD_SUPPORT", "value": "123456789" }
+  ]
+}

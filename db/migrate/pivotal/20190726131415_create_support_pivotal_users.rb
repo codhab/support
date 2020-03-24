@@ -1,37 +1,38 @@
 class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2]
   def change
     create_table 'intranetx.pivotal_users' do |t|
-      t.string  :photo
-      t.string  :social_photo
-      t.string  :code
+      
+      t.string  :name
       t.string  :first_name
       t.string  :last_name
-      t.string  :name
+      t.string  :code
+      t.string  :avatar
       t.string  :cpf
       t.string  :username
-      t.string  :password_digest
       t.date    :born
-      t.integer :born_uf_id
-      t.integer :gender_id
-      t.string  :avatar
       t.string  :branch_line
-      t.string  :curriculum
+      t.string  :phone
       t.string  :email
-      t.string  :email_private
-      t.text    :external_observation
       t.integer :job_id
-      t.integer :civil_state_id
-      t.string  :cell_phone
-      t.string  :mobile_user_token
-      t.string  :mobile_push_token
       t.integer :sector_id
-      t.string  :remember_token
-      t.string  :remember_token_expires_at
+      t.string  :device_user_token
+      t.string  :device_push_token
+      
       t.boolean :status, default: true
+      
       t.boolean :administrator, default: false
-      t.boolean :external,  default: false
-      t.boolean :change_password, default: false
-            
+      t.text    :administrator_observation
+
+      t.boolean :analyst, default: false
+      t.text    :analyst_observation
+      
+      t.boolean  :external, default: false
+      t.datetime :external_expires_at, default: nil
+      t.datetime :external_observation
+      t.string   :external_password_digest
+
+      t.integer  :linked_id
+
       t.timestamps
 
       t.datetime :deleted_at
@@ -40,6 +41,6 @@ class CreateSupportPivotalUsers < ActiveRecord::Migration[5.2]
 
     add_index 'pivotal_users', :username, unique: true
     add_index 'pivotal_users', :sector_id
-    add_index 'pivotal_users', :code
+    add_index 'pivotal_users', :code, unique: true
   end
 end

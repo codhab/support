@@ -9,5 +9,7 @@ class CreateSupportAddressActivityTypes < ActiveRecord::Migration[5.2]
       
       t.boolean  :deleted, default: false
       t.datetime :deleted_at
+      
+    end
   end
 end
